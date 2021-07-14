@@ -522,6 +522,19 @@ header .header-button .btn-book-watch:hover {
 }
 
 @media (min-width: 575px) {
+  .section-subscribe .mail-form .subscribe-input {
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+  .section-subscribe .mail-form .subscribe-btn button {
+    width: 100%;
+  }
+  .section-offer-card .offer-card {
+    margin-bottom: 15px;
+  }
+  .section-recent-tour .recent-card {
+    margin-bottom: 15px;
+  }
   .section-recent-tour .recent-card {
     width: 100%;
     height: 100%;
