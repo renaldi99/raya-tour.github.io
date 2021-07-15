@@ -531,6 +531,29 @@ header .header-button .btn-book-watch:hover {
   color: #2f8ed2;
 }
 
+.section-details .card-details {
+  padding: 30px;
+  border-radius: 12px;
+  border: none;
+  background-color: #f8f8f8;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  overflow: hidden;
+}
+
+.section-details .card-details .gallery .thumbnail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-ordinal-group: -998;
+      -ms-flex-order: -999;
+          order: -999;
+}
+
+.section-details .card-details .gallery .thumbnail a {
+  margin-bottom: 24px;
+}
+
 @media (max-width: 575px) {
   .section-tour .section-tour-content .card-tour {
     margin: 10px;
@@ -551,6 +574,21 @@ header .header-button .btn-book-watch:hover {
   .section-recent-tour .recent-card {
     margin-bottom: 15px;
   }
+  .section-details .card-details .gallery .banner img {
+    max-width: 100%;
+    height: auto;
+  }
+  .section-details .card-details .gallery .thumbnail {
+    overflow: auto;
+    margin-top: 10px;
+  }
+  .section-details .card-details .gallery .thumbnail a {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .section-details .card-details .gallery .thumbnail a img {
+    width: 100%;
+  }
 }
 
 @media (min-width: 575px) and (max-width: 767px) {
@@ -570,6 +608,21 @@ header .header-button .btn-book-watch:hover {
   .section-recent-tour .recent-card {
     width: 100%;
     height: 100%;
+  }
+  .section-details .card-details .gallery .banner img {
+    max-width: 100%;
+    height: auto;
+  }
+  .section-details .card-details .gallery .thumbnail {
+    overflow: auto;
+    margin-top: 10px;
+  }
+  .section-details .card-details .gallery .thumbnail a {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .section-details .card-details .gallery .thumbnail a img {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */
