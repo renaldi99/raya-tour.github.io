@@ -75,6 +75,19 @@ header {
     font-family: "Poppins", sans-serif;
     color: #fff;
     font-weight: 600;
+
+    span {
+      background: linear-gradient(
+        to right top,
+        #ff5597,
+        #ff6a7d,
+        #ff8667,
+        #ffa459,
+        #ffc157
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
   }
 
   .header-button {

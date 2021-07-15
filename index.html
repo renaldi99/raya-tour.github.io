@@ -7,6 +7,7 @@
     <title>Tour Travel</title>
     <link rel="stylesheet" href="./frontend/libraries/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./frontend/libraries/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./frontend/libraries/aos/dist/aos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -70,7 +71,7 @@
         <h1>
             Liburan Kemana saja
             <br>
-            Yang kamu mau, <span>Jogja?</span> 
+            Yang kamu mau, <span class="type-animate"></span> 
         </h1>
         <div class="header-button">
             <a href="" class="btn btn-book-now px-4">Book Now</a>
@@ -407,78 +408,79 @@
             </div>
         </div>
         <!-- End Recent Tour -->
-
-        <!-- Start Footer -->
-        <footer class="section-footer">
-            <div class="container">
-                <row class="justify-content-center">
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-md-3 col-12">
-                                <h5>GET CONNECTED</h5>
-                                <ul class="list-unstyled">
-                                    <li><a href="">Jakarta Barat</a></li>
-                                    <li><a href="">Indonesia</a></li>
-                                    <li><a href="">0812 555 666</a></li>
-                                    <li><a href="">support@tour-travel.com</a></li>
-                                </ul>
+    </main>
+    
+    <!-- Start Footer -->
+    <footer class="section-footer">
+        <div class="container">
+            <row class="justify-content-center">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-md-3 col-12">
+                            <h5>GET CONNECTED</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="">Jakarta Barat</a></li>
+                                <li><a href="">Indonesia</a></li>
+                                <li><a href="">0812 555 666</a></li>
+                                <li><a href="">support@tour-travel.com</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-12">
+                            <h5>COMPANY</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="">About Us</a></li>
+                                <li><a href="">Careers</a></li>
+                                <li><a href="">Help Center</a></li>
+                                <li><a href="">Support</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-12">
+                            <h5>OTHERS</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="">Refund</a></li>
+                                <li><a href="">Security</a></li>
+                                <li><a href="">Payment</a></li>
+                                <li><a href="">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-12">
+                            <h5>SOCIAL MEDIA</h5>
+                            <div class="social-media">
+                                <img src="./frontend/images/instagram.svg" alt="Instagram" class="mr-2">
+                                <img src="./frontend/images/facebook.svg" alt="Facebook" class="mr-2">
+                                <img src="./frontend/images/twitter.svg" alt="Instagram" class="mr-2">
+                                <img src="./frontend/images/youtube.svg" alt="Youtube" class="mr-2">
                             </div>
-                            <div class="col-md-3 col-12">
-                                <h5>COMPANY</h5>
-                                <ul class="list-unstyled">
-                                    <li><a href="">About Us</a></li>
-                                    <li><a href="">Careers</a></li>
-                                    <li><a href="">Help Center</a></li>
-                                    <li><a href="">Support</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-md-3 col-12">
-                                <h5>OTHERS</h5>
-                                <ul class="list-unstyled">
-                                    <li><a href="">Refund</a></li>
-                                    <li><a href="">Security</a></li>
-                                    <li><a href="">Payment</a></li>
-                                    <li><a href="">Privacy Policy</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-md-3 col-12">
-                                <h5>SOCIAL MEDIA</h5>
-                                <div class="social-media">
-                                    <img src="./frontend/images/instagram.svg" alt="Instagram" class="mr-2">
-                                    <img src="./frontend/images/facebook.svg" alt="Facebook" class="mr-2">
-                                    <img src="./frontend/images/twitter.svg" alt="Instagram" class="mr-2">
-                                    <img src="./frontend/images/youtube.svg" alt="Youtube" class="mr-2">
-                                </div>
-                                <h5 class="mt-3">GALLERY</h5>
-                                <div class="row justify-content-center align-items-center">
-                                    <div class="col">
-                                        <div class="tech">
-                                            <img src="./frontend/images/pict.png" alt="Gallery" class="mr-2">
-                                        </div>
+                            <h5 class="mt-3">GALLERY</h5>
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col">
+                                    <div class="tech">
+                                        <img src="./frontend/images/pict.png" alt="Gallery" class="mr-2">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </row>
-            </div>
-            <div class="container-fluid">
-                <div class="row justify-content-center align-items-center pt-4">
-                    <div class="col-auto text-gray-500 font-weight-light">
-                        <p>&copy; Copyright Raya Tour 2021 By Renaldi • All rights reserved • Made in Jakarta</p>
-                    </div>
+                </div>
+            </row>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center pt-4">
+                <div class="col-auto text-gray-500 font-weight-light">
+                    <p>&copy; Copyright Raya Tour 2021 By Renaldi • All rights reserved • Made in Jakarta</p>
                 </div>
             </div>
-        </footer>
-        <!-- End Footer -->
-    </main>
-    
+        </div>
+    </footer>
+    <!-- End Footer -->
 
 
     <script src="./frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
     <script src="./frontend/libraries/bootstrap/js/bootstrap.min.js"></script>
     <script src="./frontend/libraries/owlcarousel/owl.carousel.min.js"></script>
     <script src="./frontend/libraries/retina/retina.min.js"></script>
+    <script src="./frontend/libraries/aos/dist/aos.js"></script>
+    <script src="./frontend/scripts/typed.js"></script>
     <script src="./frontend/scripts/main.js"></script>
 </body>
 </html>

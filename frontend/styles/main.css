@@ -53,6 +53,13 @@ header h1 {
   font-weight: 600;
 }
 
+header h1 span {
+  background: -webkit-gradient(linear, left bottom, right top, from(#ff5597), color-stop(#ff6a7d), color-stop(#ff8667), color-stop(#ffa459), to(#ffc157));
+  background: linear-gradient(to right top, #ff5597, #ff6a7d, #ff8667, #ffa459, #ffc157);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 header .header-button {
   margin-top: 70px;
 }

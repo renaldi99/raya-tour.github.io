@@ -21,3 +21,16 @@ $(".owl-carousel").owlCarousel({
     },
   },
 });
+
+//Typed Animate
+var typed = new Typed(".type-animate", {
+  strings: ["Bali?", "Jogja?", "Lombok?", "Bandung?", "Tokyo?"],
+  typeSpeed: 100,
+  backSpeed: 50,
+  loop: true,
+  startDelay: 1000,
+});
+
+AOS.init({
+  duration: 1000,
+});
