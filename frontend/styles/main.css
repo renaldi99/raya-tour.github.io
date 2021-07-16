@@ -554,6 +554,64 @@ header .header-button .btn-book-watch:hover {
   margin-bottom: 24px;
 }
 
+.section-details .card-details .content-gallery h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.section-details .card-details .content-gallery p {
+  font-weight: 400;
+}
+
+.section-details .card-details .content-gallery .feature .feature-content {
+  border-radius: 10px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-details .card-details .content-gallery .feature .feature-content p {
+  margin: 0;
+}
+
+.section-details .card-details .content-gallery .card-right {
+  padding: 20px;
+  border: 1px solid #f2a66b;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.section-details .card-details .content-gallery .card-right .members .members-img {
+  width: 40px;
+}
+
+.section-details .card-details .content-gallery .card-right .deskripsi-ringkas th {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.section-details .card-details .content-gallery .card-right .deskripsi-ringkas td {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.section-details .card-details .content-gallery .join-container .btn-join-now {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background: -webkit-gradient(linear, left bottom, right top, from(#ff5597), color-stop(#ff6a7d), color-stop(#ff8667), color-stop(#ffa459), to(#ffc157));
+  background: linear-gradient(to right top, #ff5597, #ff6a7d, #ff8667, #ffa459, #ffc157);
+}
+
+.section-details .card-details .content-gallery .join-container .btn-join-now:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#f2a66b));
+  background: linear-gradient(#f2a66b);
+}
+
 @media (max-width: 575px) {
   .section-tour .section-tour-content .card-tour {
     margin: 10px;
@@ -588,6 +646,12 @@ header .header-button .btn-book-watch:hover {
   }
   .section-details .card-details .gallery .thumbnail a img {
     width: 100%;
+  }
+  .section-details .card-details .feature {
+    border-bottom: 1px solid #d4d3d3;
+  }
+  .section-details .card-details .content-gallery .card-right {
+    margin-top: 20px;
   }
 }
 
@@ -624,6 +688,9 @@ header .header-button .btn-book-watch:hover {
   .section-details .card-details .gallery .thumbnail a img {
     height: auto;
     width: 100%;
+  }
+  .content-gallery .feature .feature-content {
+    margin-bottom: 10px;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -564,6 +564,75 @@ header {
         }
       }
     }
+
+    .content-gallery {
+      h2 {
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+      p {
+        font-weight: 400;
+      }
+
+      .feature {
+        .feature-content {
+          border-radius: 10px;
+          padding: 10px;
+          display: flex;
+          align-items: center;
+
+          p {
+            margin: 0;
+          }
+        }
+      }
+
+      .card-right {
+        padding: 20px;
+        border: 1px solid $orange-hover;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+
+        .members {
+          .members-img {
+            width: 40px;
+          }
+        }
+
+        .deskripsi-ringkas {
+          th {
+            font-weight: 300;
+            font-size: 18px;
+          }
+
+          td {
+            font-weight: 300;
+            font-size: 18px;
+            color: #b1b1b1;
+          }
+        }
+      }
+
+      .join-container {
+        .btn-join-now {
+          border-top-left-radius: 0;
+          border-top-right-radius: 0;
+          background: linear-gradient(
+            to right top,
+            #ff5597,
+            #ff6a7d,
+            #ff8667,
+            #ffa459,
+            #ffc157
+          );
+
+          &:hover {
+            background: linear-gradient($orange-hover);
+          }
+        }
+      }
+    }
   }
 }
 
@@ -633,6 +702,16 @@ header {
           }
         }
       }
+
+      .feature {
+        border-bottom: 1px solid #d4d3d3;
+      }
+
+      .content-gallery {
+        .card-right {
+          margin-top: 20px;
+        }
+      }
     }
   }
 }
@@ -696,6 +775,14 @@ header {
             }
           }
         }
+      }
+    }
+  }
+
+  .content-gallery {
+    .feature {
+      .feature-content {
+        margin-bottom: 10px;
       }
     }
   }
