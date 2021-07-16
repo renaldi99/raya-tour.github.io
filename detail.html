@@ -72,7 +72,7 @@
         <section class="section-details">
             <div class="container">
                 <div class="row">
-                    <div class="col p-0">
+                    <div class="col p-md-0">
                         <nav>
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item align-items-center d-flex"><i class="la la-home"></i><a href=""> Home</a></li>
@@ -82,7 +82,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12 pl-md-0">
+                    <div class="col-md-12 pl-lg-0">
                         <div class="card card-details">
                             <h2 class="text-uppercase">RAJA AMPAT, PAPUA</h2>
                             <p class="text-uppercase">
@@ -93,17 +93,17 @@
                                     <img src="./frontend/images/image-banner.png" alt="Banner" class="xzoom w-100 h-auto" id="xzoom-default" xoriginal="./frontend/images/image-banner.png">
                                 </div>
                                 <div class="xzoom-thumbs thumbnail d-md-flex flex-md-column mr-md-4">
-                                    <a href="./frontend/images/image-thumb.png">
-                                        <img src="./frontend/images/image-thumb.png" class="xzoom-gallery ml-0" width="128" xpreview="./frontend/images/image-thumb.png">
+                                    <a href="./frontend/images/image-banner.png">
+                                        <img src="./frontend/images/image-thumb.png" class="xzoom-gallery ml-0" width="128" xpreview="./frontend/images/image-banner.png">
                                     </a>
-                                    <a href="./frontend/images/image-thumb-1.png">
-                                        <img src="./frontend/images/image-thumb-1.png" class="xzoom-gallery ml-0" width="128" xpreview="./frontend/images/image-thumb-1.png">
+                                    <a href="./frontend/images/image-banner-1.png">
+                                        <img src="./frontend/images/image-thumb-1.png" class="xzoom-gallery ml-0" width="128" xpreview="./frontend/images/image-banner-1.png">
                                     </a>
-                                    <a href="./frontend/images/image-thumb-2.png">
-                                        <img src="./frontend/images/image-thumb-2.png" class="xzoom-gallery ml-0" width="128" xpreview="./frontend/images/image-thumb-2.png">
+                                    <a href="./frontend/images/image-banner-2.png">
+                                        <img src="./frontend/images/image-thumb-2.png" class="xzoom-gallery ml-0" width="128" xpreview="./frontend/images/image-banner-2.png">
                                     </a>
-                                    <a href="./frontend/images/image-thumb-3.png">
-                                        <img src="./frontend/images/image-thumb-3.png" class="xzoom-gallery ml-0" width="128" xpreview="./frontend/images/image-thumb-3.png">
+                                    <a href="./frontend/images/image-banner-3.png">
+                                        <img src="./frontend/images/image-thumb-3.png" class="xzoom-gallery ml-0" width="128" xpreview="./frontend/images/image-banner-3.png">
                                     </a>
                                 </div>
                             </div>
@@ -125,5 +125,14 @@
     <script src="./frontend/libraries/xzoom/xzoom.min.js"></script>
     <script src="./frontend/scripts/typed.js"></script>
     <script src="./frontend/scripts/main.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.xzoom, .xzoom-gallery').xzoom({
+                title: false,
+                tint: '#135a8d',
+                Xoffset: 15,
+            });
+        });
+    </script>
 </body>
 </html>

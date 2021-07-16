@@ -622,6 +622,7 @@ header .header-button .btn-book-watch:hover {
     margin-right: 5px;
   }
   .section-details .card-details .gallery .thumbnail a img {
+    height: auto;
     width: 100%;
   }
 }
