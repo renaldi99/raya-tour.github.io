@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./frontend/libraries/aos/dist/aos.css">
     <link rel="stylesheet" href="./frontend/libraries/xzoom/xzoom.css">
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="./frontend/libraries/gijgo/css/gijgo.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -24,6 +25,7 @@
             </a>
         </nav>
     </div>
+    <!-- End Navbar -->
 
     <main>
         <section class="section-checkout">
@@ -171,6 +173,11 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="confirm-transaksi">
+                                        <a href="success.html" class="btn btn-block btn-confirm-transaksi py-2">
+                                            Join Now
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -179,71 +186,38 @@
             </div>
         </section>
     </main>
-
-
-    <!-- End Navbar -->
     <!-- Start Footer -->
-    <!-- <footer class="section-footer">
+    <footer class="section-footer-checkout">
         <div class="container">
-            <row class="justify-content-center">
-                <div class="col-12">
-                    <div class="row">
-                        <div class="col-md-3 col-12">
-                            <h5>GET CONNECTED</h5>
-                            <ul class="list-unstyled">
-                                <li><a href="">Jakarta Barat</a></li>
-                                <li><a href="">Indonesia</a></li>
-                                <li><a href="">0812 555 666</a></li>
-                                <li><a href="">support@tour-travel.com</a></li>
-                            </ul>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-10">
+                    <div class="row align-items-md-center">
+                        <div class="col-md-5">
+                            <p class="mb-md-0">
+                                Sign up to our newsletter and you'll get weekly offer about sent to your email
+                            </p>
                         </div>
-                        <div class="col-md-3 col-12">
-                            <h5>COMPANY</h5>
-                            <ul class="list-unstyled">
-                                <li><a href="">About Us</a></li>
-                                <li><a href="">Careers</a></li>
-                                <li><a href="">Help Center</a></li>
-                                <li><a href="">Support</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 col-12">
-                            <h5>OTHERS</h5>
-                            <ul class="list-unstyled">
-                                <li><a href="">Refund</a></li>
-                                <li><a href="">Security</a></li>
-                                <li><a href="">Payment</a></li>
-                                <li><a href="">Privacy Policy</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 col-12">
-                            <h5>SOCIAL MEDIA</h5>
-                            <div class="social-media">
-                                <img src="./frontend/images/instagram.svg" alt="Instagram" class="mr-2">
-                                <img src="./frontend/images/facebook.svg" alt="Facebook" class="mr-2">
-                                <img src="./frontend/images/twitter.svg" alt="Instagram" class="mr-2">
-                                <img src="./frontend/images/youtube.svg" alt="Youtube" class="mr-2">
-                            </div>
-                            <h5 class="mt-3">GALLERY</h5>
-                            <div class="row justify-content-center align-items-center">
-                                <div class="col">
-                                    <div class="tech">
-                                        <img src="./frontend/images/pict.png" alt="Gallery" class="mr-2">
+                        <div class="col-md-7">
+                            <div class="mail-form align-items-center">
+                                <div class="row no-gutters">
+                                    <div class="col-md-8">
+                                        <div class="subscribe-input">
+                                            <input type="email" placeholder="Your Email">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="subscribe-btn">
+                                            <button class="btn btn-subscribe">Subscribe</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </row>
-        </div>
-        <div class="container-fluid">
-            <div class="row justify-content-center align-items-center pt-4">
-                <div class="col-auto text-gray-500 font-weight-light">
-                    <p>&copy; Copyright Raya Tour 2021 By Renaldi • All rights reserved • Made in Jakarta</p>
-                </div>
             </div>
         </div>
-    </footer> -->
+    </footer>
     <!-- End Footer -->
 
     
@@ -255,7 +229,7 @@
     <script src="./frontend/libraries/retina/retina.min.js"></script>
     <script src="./frontend/libraries/aos/dist/aos.js"></script>
     <script src="./frontend/libraries/xzoom/xzoom.min.js"></script>
-    <script src="./frontend/scripts/typed.js"></script>
+    <script src="./frontend/libraries/gijgo/js/gijgo.min.js"></script>
     <script src="./frontend/scripts/main.js"></script>
     <script>
         $(document).ready(function() {
@@ -266,6 +240,13 @@
                 tint: '#135a8d',
                 Xoffset: 15,
             });
+
+            $('.datepicker').datepicker({
+                uiLibrary: 'bootstrap4',
+                icons: {
+                    rightIcon: '<i class="las la-calendar"></i>'
+                }
+            })
         });
     </script>
 </body>
