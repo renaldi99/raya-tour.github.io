@@ -38,6 +38,7 @@ body {
   color: #fff;
 }
 
+@use 'main.scss';
 header {
   padding: 220px 0 220px;
   margin-top: -66px;
@@ -822,6 +823,35 @@ header .header-button .btn-book-watch:hover {
 }
 
 .section-footer-checkout .mail-form .subscribe-btn button:hover {
+  background-color: #2f8ed2;
+}
+
+@use 'main.scss';
+.section-success {
+  height: 90vh;
+  padding: 50px 0;
+}
+
+.section-success .content-success {
+  padding: 30px 0 0;
+}
+
+.section-success .content-success h2 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.section-success .content-success p {
+  font-weight: 400;
+}
+
+.section-success .btn-home-page {
+  background-color: #135a8d;
+  padding: 10px 15px;
+  color: #fff;
+}
+
+.section-success .btn-home-page:hover {
   background-color: #2f8ed2;
 }
 
