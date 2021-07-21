@@ -932,6 +932,9 @@ header .header-button .btn-book-watch:hover {
     height: auto;
     width: 100%;
   }
+  .section-details .card-details .content-gallery .card-right {
+    margin-top: 20px;
+  }
   .content-gallery .feature .feature-content {
     margin-bottom: 10px;
   }
