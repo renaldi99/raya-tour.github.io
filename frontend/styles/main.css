@@ -890,8 +890,9 @@ header .header-button .btn-book-watch:hover {
   .section-details .card-details .gallery .thumbnail a img {
     width: 100%;
   }
-  .section-details .card-details .feature {
-    border-bottom: 1px solid #d4d3d3;
+  .section-details .card-details .content-gallery .maps {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ebeaea;
   }
   .section-details .card-details .content-gallery .card-right {
     margin-top: 20px;
